@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Profile</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#portfolio" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="home_content_1">
+                <div class="home_content_1a">
+                    <img src="mine.png" alt="Profile Picture" />
+                </div>
+                <div class="hm_cntnt">
+                    <h3>Hello, It's me</h3>
+                    <h1>Supratim Modak</h1>
+                    <h3>And I'm a <span class="text"></span></h3>
+                    <p>Aspiring Computer Science Engineering student and Tech Enthusiast with hands-on experience in programming.</p>
+                    <div class="home-sci">
+                        <a href="#" style="--i:6"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" style="--i:7"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" style="--i:8"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" style="--i:9"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="#about" class="btn-box">More About me...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>I am Supratim Modak, a passionate individual who loves technology and creativity. With expertise in web development, I strive to build meaningful and user-friendly experiences.</p>
+            <p>In my free time, I enjoy exploring new tools, improving my skills, and contributing to open-source projects. Let's create something amazing together!</p>
+            <a href="#portfolio" class="btn-box">View My Work</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h1>My Skills</h1>
+        <div class="skills-content">
+            <div class="skill-item">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML & CSS</h3>
+                <p>Proficient in building responsive and styled web interfaces.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Experienced in creating dynamic and interactive web applications.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+                <p>Skilled in developing modern single-page applications.</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-flutter"></i>
+                <h3>Flutter</h3>
+                <p>Capable of building cross-platform mobile applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h1>My Portfolio</h1>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A web application built with React and Node.js.</p>
+                <a href="#" class="btn-box">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A mobile app developed using Flutter.</p>
+                <a href="#" class="btn-box">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A responsive website with HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn-box">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-content">
+            <p>Feel free to reach out for collaborations or inquiries!</p>
+            <div class="contact-info">
+                <p><i class="fa-solid fa-envelope"></i> Email: supratim@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +123 456 7890</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-box">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
